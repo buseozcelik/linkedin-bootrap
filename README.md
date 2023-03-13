@@ -1,1 +1,1 @@
-# linkedin-bootrap
+# linkedin-bootsrap
