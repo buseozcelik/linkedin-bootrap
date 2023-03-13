@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Linkedin Clone</title>
+</head>
+<body>
+    <!--Nabar Start-->
+    <div class="fixed-top bg-white navbarbg sticky-top mt-2">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="logo mr-3">
+                    <a href=""><img src="img/in.png" alt="" width="40" height="40"></a>
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search"  placeholder="Arama Yap" aria-label="Search">
+                  </form>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#"><i class="fa-solid fa-house fa-lg"></i></a>
+                        </li>
+                        <span class="home"><small>Ana Sayfa</small></span>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#"><i class="fa-solid fa-user fa-lg"></i></a>
+                      </li>
+                      <span class="network"><small>Ağım</small></span>
+                      <li class="nav-item">
+                        <a class="nav-link ml-3" href="#"><i class="fa-solid fa-briefcase fa-lg"></i></a>
+                      </li>
+                      <span class="work"><small>İş İlanları</small></span>
+                      <li class="nav-item">
+                        <a class="nav-link ml-2" href="#"><i class="fa-solid fa-comment-dots fa-lg"></i></a>
+                      </li>
+                      <span class="message"><small>Mesajlaşma</small></span>
+                      <li class="nav-item">
+                          <a class="nav-link " href="#"><i class="fa-solid fa-bell fa-lg"></i></a>
+                        </li>
+                        <span class="notification ml-2"><small>Bildirimler</small></span>
+                        <li class="nav-item mr-2">
+                          <a href=""> <img class="rounded-circle" width="22" height="22" src="img/in.png" alt=""></a>
+                        </li>
+                        <span class="me"><small>Ben</small></span>
+                        <li class="nav-item border-left">
+                            <a class="nav-link ml-3 mr-2" href="#"><i class="fas fa-th fa-lg"></i></a>
+                          </li>
+                          <span class="job"><small>İş</small></span>
+                          <li>
+                            <a href=""><small class="pre">Daha hızlı işe alın, <br> Ücretsiz deneyin.<br>Premium</small></a>
+                          </li>
+                    </ul>
+                  </div>
+              </nav>
+        </div>
+    </div>
+    <!--Navbar End-->
+    <!--Left Panel Start-->
+    <div class="container">
+        <div class="row">
+            <div>
+                <div class="col-sm-2 pt-4">
+                    <div class="card" style="width: 18rem; border-radius: 15px;">
+                        <li class="alist"><img src="img/avatar.jpeg" class="rounded-circle mt-4" width="60" height="60" alt=""></li>
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Buse Özçelik</h5>
+                          <p class="card-text text-center text-secondary"><small>Yıldız Teknik Üniversitesi Kurumunda Öğrenci</small></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <a href=""><li class="list-group-item"><small class="text-secondary">bağlantı<br></small><small class="text-body">İletişim ağınızı büyütün.</small><br><a href=""><small class="text-secondary">Kişi profilinizi görüntüledi</small></a></li></a>
+                          <li class="list-group-item"><small class="text-secondary">Özel araç ve iç görülere erişim</small><br><small><u><a href="" class="text-dark">Daha hızlı işe alın.Ücretsiz deneyin.Premium</a></u></small></li>
+                          <li class="list-group-item"><i class="fa-solid fa-bookmark mr-2"></i><small class="text-dark">Ögelerim</small></li>
+                        </ul>
+                      </div>
+                      <div class="mt-2">
+                        <div class="card" style="width: 18rem; border-radius: 15px;">
+                            <div class="card-header bg-white">
+                              <small>En Yeni</small>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <a href="" class="text-dark"><li class="list-group-item"><small>#Staj Dünyasi</small></li></a>
+                              <a href="" class="text-dark"><li class="list-group-item"><small>#Software Testing Bootcamp</small></li></a>
+                            </ul>
+                          </div>
+                      </div>
+                      <div class="card" style="width: 18rem; border-radius: 15px;">
+                        <div class="card-header bg-white">
+                          <small>Gruplar</small>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <a href="" class="text-dark"><li class="list-group-item"><small>#Staj Dünyasi</small></li></a>
+                            <a href="" class="text-dark"><li class="list-group-item"><small>#Software Testing Bootcamp</small></li><p class="text-secondary ml-4"><small>Tümünü Gör</small></p></a>
+                            <a href=""><li class="list-group-item"><small>Etkinlikler</small><br><small>Takip edilen hashtaglar</small></li></a>
+                            <button class="btn btn-light"><small class="text-secondary">Daha fazla keşfet</small></button>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+            <!--Left Panel End-->
+              <!--Middle Panel Start-->
+            <div class="col-sm-6">
+                <div class="card mt-4" style="border-radius: 10px;">
+                    <div class="card-body">
+                      <input
+                        type="text"
+                        class="form-control content mb-2"
+                        placeholder="Bir gönderi başlat"
+                        style="border-radius: 2rem;"
+                      />
+                      <span
+                        ><button class="mediatext bg-light border-0 mt-3 py-2 ml-3">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false">
+          <path class="foto" d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"></path>
+        </svg><span class="ml-1 mediatext text-secondary">Fotoğraf</span>
+                        </button></span
+                      >
+                      <span
+                        ><button class="mediatext bg-light border-0 mt-3 py-2 ml-3">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false">
+          <path class="p-green" d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"></path>
+        </svg><span class="ml-1 mediatext text-secondary">Video</span>
+                        </button></span
+                      >
+                      <span
+                        ><button class="mediatext bg-light border-0 mt-3 py-2 ml-3">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false">
+          <path class="p-orange" d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z"></path>
+        </svg><span class="ml-1 mediatext text-secondary">Etkinlik</span>
+                        </button></span
+                      >
+                      <span
+                        ><button class="mediatext bg-light border-0 mt-3 py-2 ml-3">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="" width="24" height="24" focusable="false">
+          <path class="p-pink" d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
+        </svg><span class="ml-1 mediatext text-secondary">Yazı yaz</span>
+                        </button></span
+                      >
+                    </div>
+                  </div>
+                  <div>
+                    <hr />
+                  </div>
+            <div class="card " >
+                <div class="card-header bg-white border-bottom-0">
+                  <span>
+                  <img src="https://picsum.photos/id/37/200/300" class="postphoto float-left mr-3 rounded-circle" width="45" height="45">
+                  <span class="posttext posttext d-flex align-items-star"><a href="https://www.linkedin.com/in/malan/" target="_blank" style="color: #212529;">David J. Malan</a></span>
+                  <span class="float-right">
+                    <i class="fas fa-ellipsis-h fa-md"></i>
+                  </span>
+                  <span class="d-flex align-items-center" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px; color: #474747; "> I teach CS50</span>
+                  <span class="" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px; color: #474747;">25a  <i class="fas fa-globe-americas fa-sm"></i></span>
+                <div>
+                  <p class="card-text ml-3" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; color: black;">
+                    They have done great things! Tebrikler Kodluyoruz!
+                  </p>
+                  <div>
+                  <img
+                    src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg"
+                    class="card-img-top mb-1"
+                    alt="..."
+                  />
+                  </div>
+                  <span class=""><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt=""></span>
+                  <span class=""><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt=""></span>
+                  <span class="" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px; color: #474747;"><img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">  958</span>
+                  <div class="card-footer bg-white mt-1">
+                    <span
+                    ><button class="ref btn btn-light ">
+                      <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem"
+                        ><span class="ml-2 mediatext text-secondary">Beğen</span></i
+                      >
+                    </button></span
+                  >
+                                  <span
+                    ><button class="ref btn btn-light">
+                      <i class="far fa-comment fa-md" style="font-size: 1.2rem"
+                        ><span class="ml-2 mediatext text-secondary">Yorum Yap</span></i
+                      >
+                    </button></span
+                  >
+                                  <span
+                    ><button class="ref btn btn-light">
+                      <i class="fas fa-share fa-md" style="font-size: 1.2rem"
+                        ><span class="ml-2 mediatext text-secondary">Paylaş</span></i
+                      >
+                    </button></span
+                  >
+                                  <span
+                    ><button class="ref btn btn-light">
+                      <i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem"
+                        ><span class="ml-2 mediatext text-secondary">Gönder</span></i
+                      >
+                    </button></span
+                  >
+                  </div>
+                </div>
+              
+              <div class="card mt-2">
+                <div class="card-header bg-white border-bottom-0">
+                  <span>
+                  <img src="https://picsum.photos/id/27/200/300" class="postphoto float-left mr-3 rounded-circle" width="45" height="45">
+                  <span class="posttext posttext d-flex align-items-star"><a href="https://www.linkedin.com/in/ozanhalis/" target="_blank" style="color: #212529;">Ozan Halis İLTER</a></span>
+                  <span class="float-right">
+                    <i class="fas fa-ellipsis-h fa-md"></i>
+                  </span>
+                  <span class="d-flex align-items-center" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px; color: #474747;">Team Leader at YetGen | CodeCraft | Kablosuz Beyin | IEEE MEF...</span>
+                  <span class="" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px; color: #474747;">1s  <i class="fas fa-globe-americas fa-sm"></i></span>
+                </div>
+                <div>
+                  <p class="card-text ml-3" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; color: black;">
+                    Erhan Erkut hocamız ile birlikte YetGen'de harika şeyler yapmak için geliyoruz!
+                  </p>
+                  <div>
+                  <img
+                    src="https://miro.medium.com/max/1080/1*gdDWFSvHDt57DS2zsh_0Bg.png"
+                    class="card-img-top mb-1"
+                    alt="..."
+                  />
+                  </div>
+                  <span class=""><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt=""></span>
+                  <span class=""><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt=""></span>
+                  <span class="" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px; color: #474747;"><img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">  210</span>
+                  <div class="card-footer bg-white mt-1">
+                    <span
+                    ><button class="ref btn btn-light">
+                      <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem"
+                        ><span class="ml-2 mediatext">Beğen</span></i
+                      >
+                    </button></span
+                  >
+                                  <span
+                    ><button class="ref btn btn-light">
+                      <i class="far fa-comment fa-md" style="font-size: 1.2rem"
+                        ><span class="ml-2 mediatext">Yorum Yap</span></i
+                      >
+                    </button></span
+                  >
+                                  <span
+                    ><button class="ref btn btn-light">
+                      <i class="fas fa-share fa-md" style="font-size: 1.2rem"
+                        ><span class="ml-2 mediatext">Paylaş</span></i
+                      >
+                    </button></span
+                  >
+                                  <span
+                    ><button class="ref btn btn-light">
+                      <i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem"
+                        ><span class="ml-2 mediatext">Gönder</span></i
+                      >
+                    </button></span
+                  >
+                  </div>
+                </div>
+              </div>
+              <div class="card mt-2 ">
+                <div class="card-header bg-white border-0 bg-white">
+                  <span>
+                  <img src="https://picsum.photos/id/67/200/300" class="postphoto mr-2 float-left rounded-circle" width="45" height="45">
+                  <span class="posttext d-flex align-items-star"><a href="https://www.linkedin.com/in/ramazansancar/" target="_blank" style="color: black;">Ramazan Sancar</a></span>
+                  <span class="float-right">
+                    <i class="fas fa-ellipsis-h fa-md"></i>
+                  </span>
+                  <span class="d-flex align-items-center" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px; color: #474747;">Co-Founder at Kablosuz Beyin | Intern & Community Lead at Kod...</span>
+                  <span class="" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px; color: #474747;">25a  <i class="fas fa-globe-americas fa-sm"></i></span>
+                </div>
+                <div>
+                  <p class="card-text ml-3" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; color: #212529;">
+                    Cat Özel Harekat'a katılmak isteyenleri şöyle alalım..
+                  </p>
+                  <div>
+                  <img
+                    src="img/kablosuz.png"
+                    class="card-img-top mb-1"
+                    alt="..."
+                  />
+                  </div>
+                  <span class=""><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt=""></span>
+                  <span class=""><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt=""></span>
+                  <span class="" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px; color: #474747;"><img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">  224</span>
+                  <div class="card-footer bg-white mt-1">
+                    <span
+                    ><button class="ref btn btn-light">
+                      <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem"
+                        ><span class="ml-2 mediatext">Beğen</span></i
+                      >
+                    </button></span
+                  >
+                                  <span
+                    ><button class="ref btn btn-light">
+                      <i class="far fa-comment fa-md" style="font-size: 1.2rem"
+                        ><span class="ml-2 mediatext">Yorum Yap</span></i
+                      >
+                    </button></span
+                  >
+                                  <span
+                    ><button class="ref btn btn-light">
+                      <i class="fas fa-share fa-md" style="font-size: 1.2rem"
+                        ><span class="ml-2 mediatext">Paylaş</span></i
+                      >
+                    </button></span
+                  >
+                                  <span
+                    ><button class="ref btn btn-light">
+                      <i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem"
+                        ><span class="ml-2 mediatext">Gönder</span></i
+                      >
+                    </button></span
+                  >
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+            
+            <!--Middle Panel End-->
+           </div>
+          </div>
+        </div>
+    </div>
+    
+
+
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
